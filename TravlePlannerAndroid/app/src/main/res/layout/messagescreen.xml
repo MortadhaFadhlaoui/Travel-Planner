@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="600px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlee"/>
+        <LinearLayout
+            android:id="@+id/butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20px"
+            android:layout_below="@id/titlee">
+            <Button
+                android:layout_marginRight="20px"
+                android:background="#009a9a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/saveplace"/>
+            <Button
+                android:background="#009a9a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vist"
+                android:id="@+id/vistplace"/>
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="20px"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/cancel"/>
+    </RelativeLayout>
+
+</FrameLayout>

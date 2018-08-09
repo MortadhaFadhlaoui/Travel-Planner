@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/icon_list_myday"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription=""
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tite_myday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_list_myday"
+        android:paddingBottom="10dp"
+        android:textColor="#0066cc"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/date_myday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tite_myday"
+        android:layout_toRightOf="@+id/icon_list_myday"
+        android:paddingLeft="10dp"
+        android:textColor="#c6cbd1"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_below="@+id/date_myday"
+        android:id="@+id/description_myday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_list_myday"
+        android:paddingBottom="10dp"
+
+        android:textSize="16dp" />
+</RelativeLayout>

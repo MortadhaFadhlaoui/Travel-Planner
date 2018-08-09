@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmedmohamed.travleplanner.NearbyFragment">
+    <ProgressBar
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_gravity="center"
+        android:id="@+id/progg"
+        />
+    <RelativeLayout
+
+        android:id="@+id/sadface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/sadface"
+            android:id="@+id/sadfacee"
+            />
+        <TextView
+            android:textColor="#009a9a"
+            android:layout_below="@id/sadfacee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Location Found" />
+
+    </RelativeLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009a9a"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+</FrameLayout>

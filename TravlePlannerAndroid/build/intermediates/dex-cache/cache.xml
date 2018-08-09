@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\AHMED Mohamed\AndroidStudioProjects\TravlePlanner\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="05036a9596ee9f8d6f78f87679c5d225583636e1">
+        <dex dex="C:\Users\AHMED Mohamed\AndroidStudioProjects\TravlePlanner\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f0640188cb77c3811a02d5bc5ea95298658c4ca1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AHMED Mohamed\AndroidStudioProjects\TravlePlanner\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\AHMED Mohamed\AndroidStudioProjects\TravlePlanner\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_75286b99431d3a24c02fe308d34c854f0c7eb541\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AHMED Mohamed\.android\build-cache\380928643b6d9b5cc2d2a31523012a99ec85da01\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dce3b09be94e30554913f3e3e537b3517478bfd7">
+        <dex dex="C:\Users\AHMED Mohamed\AndroidStudioProjects\TravlePlanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e660ce14e13b686331297c533d2a3a1775ab069\classes.dex" />
+    </item>
+
+</items>

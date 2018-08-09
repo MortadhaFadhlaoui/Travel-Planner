@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/icon_list_packs"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription=""
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+<LinearLayout
+    android:id="@+id/ll"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/icon_list_packs">
+    <TextView
+        android:id="@+id/date_debut_pack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:textColor="#c6cbd1"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:id="@+id/date_fin_pack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="#c6cbd1"
+        android:textSize="14dp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_below="@+id/ll"
+        android:id="@+id/prix_pack_list_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_list_packs"
+
+
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:id="@+id/lll"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_list_packs"
+        android:layout_below="@+id/prix_pack_list_p"
+        >
+        <TextView
+            android:id="@+id/from_pack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:textColor="#0066cc"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:id="@+id/to_pack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#0066cc"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

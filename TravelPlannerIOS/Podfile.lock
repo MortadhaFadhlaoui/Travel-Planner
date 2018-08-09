@@ -1,0 +1,107 @@
+PODS:
+  - AACarousel (1.1.0)
+  - Alamofire (4.5.1)
+  - Cosmos (11.0.3)
+  - CRRefresh (1.0.5)
+  - D2PDatePicker (0.1.4)
+  - Firebase/Core (4.6.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.11)
+  - Firebase/Messaging (4.6.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.6)
+  - FirebaseAnalytics (4.0.5):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.11):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.6)
+  - FirebaseMessaging (2.0.6):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleMaps (2.3.0):
+    - GoogleMaps/Maps (= 2.3.0)
+  - GoogleMaps/Base (2.3.0)
+  - GoogleMaps/Maps (2.3.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.0):
+    - GoogleMaps (= 2.3.0)
+    - GooglePlaces (= 2.3.0)
+  - GooglePlaces (2.3.0):
+    - GoogleMaps/Base (= 2.3.0)
+  - GooglePlacesSearchController (0.1.7)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - JKSteppedProgressBar (0.3.0)
+  - KCFloatingActionButton (2.2.0)
+  - Kingfisher (4.5.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.5.0)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SwiftyJSON (4.0.0)
+  - SwipeCellKit (2.0.0)
+  - YMCalendar (1.0)
+
+DEPENDENCIES:
+  - AACarousel
+  - Alamofire (~> 4.0)
+  - Cosmos (~> 11.0)
+  - CRRefresh
+  - D2PDatePicker
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps (= 2.3.0)
+  - GooglePlacePicker (= 2.3.0)
+  - GooglePlaces (= 2.3.0)
+  - GooglePlacesSearchController
+  - JKSteppedProgressBar
+  - KCFloatingActionButton (~> 2.2)
+  - Kingfisher (~> 4.0)
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON
+  - SwipeCellKit
+  - YMCalendar
+
+SPEC CHECKSUMS:
+  AACarousel: 6131fa3650201a3ce10b6581621f3cade221b079
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Cosmos: eb506859929f4add2d2aec822a27efb2f718a95d
+  CRRefresh: 718be57647db922a4a3af3f17fc41289145d8e83
+  D2PDatePicker: e35a6b3dd5fac16de8a17606dc0bb285e8b1a875
+  Firebase: 27321a925aa85520618255a7c630859e0502ccbd
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseCore: 2a946ece8fbe3ce1fdeeb55324f273caade22df9
+  FirebaseInstanceID: 24958382a1011bba5aaff37e334e7a650b9118f5
+  FirebaseMessaging: 75d83375b0f7a9911568d7bdd1a1a8261cbcbdef
+  GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
+  GooglePlacePicker: 80a6719aa4d06c63524a231d0ecd8f87e87d98c2
+  GooglePlaces: 74d322c74184ea4576184089b496d291cf0dcd38
+  GooglePlacesSearchController: 0ac4fedf1582d2e44329c417a6eed80ccf62d716
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  JKSteppedProgressBar: c74bf22f355cbb42aef584e941c2abbbba0504eb
+  KCFloatingActionButton: 8c71fa25774e422c8d407f82b4b27809d0cd5233
+  Kingfisher: 26ae0473102b77b575da51960c932431e3745407
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwipeCellKit: 349c61ffde96ac3ae51c2691a03e421b5b29ee98
+  YMCalendar: 8be58de9b1363443db25a3e39bd3d38b91447e04
+
+PODFILE CHECKSUM: fd4832f28902432f4a578a6f735e27799b6a4b49
+
+COCOAPODS: 1.3.1

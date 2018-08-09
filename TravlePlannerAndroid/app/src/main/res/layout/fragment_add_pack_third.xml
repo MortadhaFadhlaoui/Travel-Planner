@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmedmohamed.travleplanner.AddPackThirdFragment">
+    <ImageView
+        android:id="@+id/gearImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:src="@drawable/thirdbg" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day plan title :"
+            android:textColor="#009a99"
+            android:textSize="17dp"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:hint="Day plan title"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:id="@+id/title_add_day_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day plan description :"
+            android:textColor="#009a99"
+            android:textSize="17dp"
+
+            android:layout_margin="10dp"/>
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="50dip">
+
+            <EditText
+                android:hint="Day plan description"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/description_add_day"
+                android:layout_width="match_parent"
+                android:inputType="text|textMultiLine"
+                android:layout_height="match_parent"/>
+
+        </ScrollView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day plan date and time :"
+            android:textColor="#009a99"
+            android:textSize="17dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+
+                android:layout_marginRight="30dp"
+                >
+                <EditText
+                    android:id="@+id/txtDateEntered2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_horizontal"
+                    android:hint="DD-MM-YYYY" />
+
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:id="@+id/imgGenerated2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back_frame"
+                    />
+            </LinearLayout>
+            <EditText
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/heure"
+                android:hint="(hh:mm)"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:onClick="OnClick"
+            android:id="@+id/adddayplan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009a9a"
+            android:text="ADD DAY PLAN"
+            android:textColor="#d9e5f3"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:padding="16dp"
+            android:letterSpacing="0.2"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_add_day"></ListView>
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

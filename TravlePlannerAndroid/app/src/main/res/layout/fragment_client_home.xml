@@ -1,0 +1,228 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmedmohamed.travleplanner.ClientHomeFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/myll">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- TODO: Update blank fragment layout -->
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14°"
+                    android:textSize="30pt"
+                    android:layout_gravity="center_horizontal|bottom"
+
+                    android:elevation="1dp"
+
+                    android:id="@+id/temp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20pt"
+                    android:text="Tunisia"
+                    android:elevation="1dp"
+                    android:layout_gravity="center_horizontal|top"
+                    android:id="@+id/cityname"
+                    />
+                <LinearLayout
+                    android:elevation="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical">
+                    <ImageView
+                        android:layout_width="50px"
+                        android:layout_height="50px"
+                        android:layout_gravity="center_horizontal"
+
+                        android:elevation="1dp"
+                        android:src="@drawable/i02d"
+                        android:id="@+id/imgtemp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cloudy"
+                        android:elevation="1dp"
+                        android:textSize="7pt"
+                        android:id="@+id/txttemp"/>
+                </LinearLayout>
+                <ImageView
+                    android:alpha="0.7"
+                    android:id="@+id/second_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/slider1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_alignTop="@+id/slider1"
+                            android:layout_alignLeft="@+id/slider1"
+                            android:layout_alignRight="@+id/slider1"
+                            android:layout_alignBottom="@+id/slider1"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nearby things"
+                            android:id="@+id/first_text"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/slider"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            />
+
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_alignTop="@+id/slider"
+                            android:layout_alignLeft="@+id/slider"
+                            android:layout_alignRight="@+id/slider"
+                            android:layout_alignBottom="@+id/slider"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saved places"
+                            android:id="@+id/second_text"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/slider2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_alignTop="@+id/slider2"
+                            android:layout_alignLeft="@+id/slider2"
+                            android:layout_alignRight="@+id/slider2"
+                            android:layout_alignBottom="@+id/slider2"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Day plans"
+                            android:id="@+id/third_text"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/slider3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_alignTop="@+id/slider3"
+                            android:layout_alignLeft="@+id/slider3"
+                            android:layout_alignRight="@+id/slider3"
+                            android:layout_alignBottom="@+id/slider3"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Food &amp; drinks"
+                            android:id="@+id/forth_text"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

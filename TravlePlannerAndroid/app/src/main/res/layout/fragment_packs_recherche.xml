@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download">
+
+    <RelativeLayout
+        android:id="@+id/sadface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/sadface"
+            android:id="@+id/sadfacee"
+            />
+        <TextView
+            android:textColor="#009a9a"
+            android:layout_below="@id/sadfacee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Location Found" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_gravity="center"
+        android:id="@+id/progpa"
+        />
+
+    <!--1. 中间可滑动的viewPager-->
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:clipToPadding="false"
+        android:paddingEnd="48dp"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:paddingStart="48dp">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <!--2. 底部的三个图标按钮-->
+    <RelativeLayout
+        android:id="@+id/bottom_layou"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true">
+    </RelativeLayout>
+
+    <!--3. viewPager的指示器-->
+    <!--注意！！此处指示器的高度，需要跟DragLayout协商好(card_extra_height)-->
+    <TextView
+        android:id="@+id/indicator_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/card_extra_height"
+        android:layout_above="@+id/bottom_layou"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:textColor="#009a9a"
+        android:textSize="16sp" />
+    <!--4. 顶部的titleBar-->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/position_view"
+            android:layout_width="1px"
+            android:layout_height="1px" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:id="@+id/packname"/>
+            <TextView
+                android:layout_toEndOf="@id/packname"
+                android:id="@+id/reservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20px"
+                android:layout_centerVertical="true"
+                android:text="Book it"
+                android:textColor="#fff"
+                android:letterSpacing="0.1"
+                android:onClick="OnClick"
+                android:background="#009a9a"
+                android:padding="5dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:id="@+id/minprix"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon2" />
+
+            <TextView
+                android:id="@+id/maxprix"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/bottom_layo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:max="100"
+                android:progress="50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
